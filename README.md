@@ -65,6 +65,7 @@ This Project contain habit App with sample data for December 2024 for testing pu
 
 * Python
 
+All things form presentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,24 +79,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+First install following packages in Your software:
 * npm
   ```sh
   npm install npm@latest -g
   ```
 
-### Installation
+### Installation and testing
+This instalation script will be showing instalation base on included sample database.
+If You want to no know how to do it but tracking Your of habits check Usage section.
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Save all of the files locally
+2. install of the pages listed in Preequsites if any are nedded
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-3. Install NPM packages
+3. Navigate via Python console to folder with saved program
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+4. Run Prgram via console
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
