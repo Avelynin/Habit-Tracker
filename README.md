@@ -3,9 +3,6 @@
 <!--
 
 -->
-![image](https://github.com/user-attachments/assets/8512eb38-5b2b-4432-83e0-7288271c2774)
-
-
 
 
 <!-- PROJECT SHIELDS -->
