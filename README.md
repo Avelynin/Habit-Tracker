@@ -43,8 +43,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#freatures">Freatures</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -55,7 +55,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+This Project contain habit App with sample data for December 2024 for testing purpose.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +63,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 ### Built With
 
-* [![Python][Python.py]][Python]
+* Python
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
