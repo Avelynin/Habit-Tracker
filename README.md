@@ -120,6 +120,23 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 
 ### Habit Menagment
+
+### Add habit
+1. Choose option 1 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 1 in habit menu<br>
+![image](https://github.com/user-attachments/assets/a81cfcbc-5a42-45b6-8c5b-204224b856c2)
+3. Choose name for new habit.<br>
+   **It can not be this same like habit already created!**<br>
+ ![image](https://github.com/user-attachments/assets/65153af6-a10a-4413-99ad-4affddfdc974)
+3. Choose name for new habit.<br>
+  
+
+
+
+
+
+
 ### Analysis Module
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
