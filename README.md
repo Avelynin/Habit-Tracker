@@ -50,18 +50,20 @@ This Project contain habit App maded in Python including sample data from 02-29 
 This Read me documention will take You Trough instalation and testing app.
 
 ### Built With
-Programming Language: <br>
-  -Python <br>
-Frameworks: <br>
-  -SQLite <br>
-Libraries: <br>
-  -datetime  
-  -Sqlite3 <br>
-Development Environment: <br>
-  -Version Control: Github <br>
-  -IDE: Jupyter Notebook <br>
 
-All things form presentation
+**Programming Language:**  
+&nbsp;&nbsp;&nbsp;&nbsp;- Python  
+
+**Frameworks:**  
+&nbsp;&nbsp;&nbsp;&nbsp;- SQLite  
+
+**Libraries:**  
+&nbsp;&nbsp;&nbsp;&nbsp;- datetime  
+&nbsp;&nbsp;&nbsp;&nbsp;- sqlite3  
+
+**Development Environment:**  
+&nbsp;&nbsp;&nbsp;&nbsp;- **Version Control:** GitHub  
+&nbsp;&nbsp;&nbsp;&nbsp;- **IDE:** Jupyter Notebook  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,28 +77,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-First install following packages in Your software:
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Python 3.13+
 
 ### Installation and testing
 This instalation script will be showing instalation base on included sample database.
-If You want to no know how to do it but tracking Your of habits check Usage section.
+If You want to create Your own habit to tracke them the best way is to create a new user.
 
-1. Save all of the files locally
-2. install of the pages listed in Preequsites if any are nedded
+1. Save all of the files from repository on Your hard drive.
+2. install Python 3.13 if You didn;t install it yet
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   https://www.python.org/downloads/
    ```
-3. Navigate via Python console to folder with saved program
+3. Navigate via Python console to folder with saved program in our example it will be C:\Habit app
    ```sh
-   npm install
+   cd C:\Habit app
    ```
 4. Run Prgram via console
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   Python main.py
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
