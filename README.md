@@ -29,11 +29,11 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Testing and Usage">Testing and Usage</a></li>
+    <li><a href="#testing-and-usage">Testing and Usage</a></li>
       <ul>
-        <li><a href="#User Menagment">User Menagment</a></li>
-        <li><a href="#Habit Menagment">Habit Menagment</a></li>
-        <li><a href="#Analysis Module">Analysis Module</a></li>
+        <li><a href="#user-menagment">User Menagment</a></li>
+        <li><a href="#habit-menagment">Habit Menagment</a></li>
+        <li><a href="#analysis=module">Analysis Module</a></li>
       </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -68,7 +68,7 @@ This Read me documention will take You Trough instalation and testing app.
 
 Python 3.13+
 
-### Installation and testing
+### Installation
 This instalation script will be showing instalation base on included sample database.
 If You want to create Your own habit to tracke them the best way is to create a new user.
 
@@ -93,8 +93,8 @@ If You want to create Your own habit to tracke them the best way is to create a 
 For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.<br>
 
 ### User menagment
-
-
+### Habit Menagment
+### Analysis Module
 
 ## Contact
 
