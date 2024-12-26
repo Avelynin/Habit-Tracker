@@ -46,16 +46,20 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This Project contain habit App maded in Python including sample data from 02-29 December 2024.
+This Project contain habit App maded in Python including sample data from 02-29 December 2024. <br>
 This Read me documention will take You Trough instalation and testing app.
 
 ### Built With
-Programming Language: Python
-Frameworks: SQLite
-Libraries: datetime , Sqlite3
-Development Environment:
-  Version Control: Github
-  IDE: Jupyter Notebook
+Programming Language: <br>
+-Python <br>
+Frameworks: <br>
+-SQLite <br>
+Libraries: <br>
+-datetime  
+-Sqlite3 <br>
+Development Environment: <br>
+-Version Control: Github <br>
+-IDE: Jupyter Notebook <br>
 
 All things form presentation
 
