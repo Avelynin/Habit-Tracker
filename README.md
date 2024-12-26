@@ -3,9 +3,6 @@
 <!--
 
 -->
-![image](https://github.com/user-attachments/assets/66d5ff0c-9d20-41e2-868a-5b903bb2d8ed)
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 -->
@@ -13,10 +10,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src=https://github.com/user-attachments/assets/325d32d8-fae5-4eea-a328-8e7fe109ce76 alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Habit Tracker</h3>
+<h3 align="center">Habit Tracker App</h3>
 
   <p align="center">
     Habit Tracker App
