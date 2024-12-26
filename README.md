@@ -94,14 +94,22 @@ For Testing purpose the Krzysztof account should be used as it is already contai
 
 ### User menagment
 
-#### Add new User
-1. Choose option 2 in start menu
+#### Delete existing user
+
+1. Choose option 2 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 
-2. Choose new user name and confirm
+2. Choose new user name and confirm<br>
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
+#### Delete existing user
 
+1. Choose option 3 in start menu<br>
+  ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
+2. Type user name which You want to delete<br>
+![image](https://github.com/user-attachments/assets/e455ce5e-b086-4722-add9-30d5fd844962)
+2. Confirm it by typing "yes"<br>
+![image](https://github.com/user-attachments/assets/41171ffd-402b-472d-a475-d80b3a5a0fa2)
 
     
 
