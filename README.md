@@ -93,6 +93,18 @@ If You want to create Your own habit to tracke them the best way is to create a 
 For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.<br>
 
 ### User menagment
+
+#### Add new User
+1. Choose option 2 in start menu
+  ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
+
+2. Choose new user name and confirm
+   ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
+
+
+
+    
+
 ### Habit Menagment
 ### Analysis Module
 
