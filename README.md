@@ -29,8 +29,12 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#Testing">Testing</a></li>
-    <li><a href="#Features">Features</a></li>
+    <li><a href="#Testing and Usage">Testing and Usage</a></li>
+      <ul>
+        <li><a href="#User Menagment">User Menagment</a></li>
+        <li><a href="#Habit Menagment">Habit Menagment</a></li>
+        <li><a href="#Analysis Module">Analysis Module</a></li>
+      </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -60,9 +64,6 @@ This Read me documention will take You Trough instalation and testing app.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
 Python 3.13+
@@ -87,24 +88,13 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Testing
+## Testing and usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.<br>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### User menagment
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Features
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
