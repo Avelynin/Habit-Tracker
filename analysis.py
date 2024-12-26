@@ -1,6 +1,6 @@
 import sqlite3
 
-def analysis_screen_menu(current_user_id):
+def analysis_screen_menu(current_user_id):  # analysis menu
     while True:
         print("Analysis Screen")
         print("1. List of tracked habits")
@@ -19,12 +19,12 @@ def analysis_screen_menu(current_user_id):
         elif choice == '4':
             longest_run_streak_of_chosen_habit(current_user_id)  
         elif choice == '5':
-            break  # Go back to the main menu
+            break  
         else:
             print("Invalid choice.")
-            time.sleep(1)  # Pause for 1 second before showing the menu again
+            time.sleep(1)  
 
-def list_of_tracked_habits(current_user_id):
+def list_of_tracked_habits(current_user_id):  # list of tracked habits
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ?', (current_user_id,))
@@ -40,7 +40,7 @@ def list_of_tracked_habits(current_user_id):
     
     conn.close()
 
-def list_of_habits_with_the_same_periodicity(current_user_id):
+def list_of_habits_with_the_same_periodicity(current_user_id): # list of tracked habits with this same periodicity
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
@@ -52,11 +52,11 @@ def list_of_habits_with_the_same_periodicity(current_user_id):
     choice = input("Enter the number of your choice: ")
     
     if choice == "1":
-        cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ? AND Periodicity = "daily"', (current_user_id,))
+        cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ? AND Periodicity = "daily"', (current_user_id,)) #daily periodicity
         results = cursor.fetchall()
         print("Your current daily tracked habits:")
     elif choice == "2":
-        cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ? AND Periodicity = "weekly"', (current_user_id,))
+        cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ? AND Periodicity = "weekly"', (current_user_id,)) #weekly periodicity
         results = cursor.fetchall()
         print("Your current weekly tracked habits:")
     elif choice == "3":
@@ -75,7 +75,7 @@ def list_of_habits_with_the_same_periodicity(current_user_id):
     
     conn.close()
 
-def longest_run_streak_of_all_defined_habits(current_user_id):    
+def longest_run_streak_of_all_defined_habits(current_user_id):    # longest run streak of all habits
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
@@ -98,7 +98,7 @@ def longest_run_streak_of_all_defined_habits(current_user_id):
     
     conn.close()
 
-def longest_run_streak_of_chosen_habit(current_user_id):  
+def longest_run_streak_of_chosen_habit(current_user_id):  # longest run streak of chosen habit
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     

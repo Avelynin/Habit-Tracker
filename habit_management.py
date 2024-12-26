@@ -4,7 +4,7 @@ from analysis import analysis_screen_menu
 
 current_user_id = None
 
-def main_menu(current_user_id):  # Accept current_user_id as a parameter
+def main_menu(current_user_id):  # Main menu
     while True:
         print("Main Menu")
         print("1. Add/delete habit")
@@ -21,11 +21,11 @@ def main_menu(current_user_id):  # Accept current_user_id as a parameter
             analysis_screen_menu(current_user_id)
         elif main_menu_choice == '4':
             print("You have been logged out.")
-            break  # Go back to the start menu
+            break 
         else:
             print("Invalid choice.")
 
-def list_of_habits_menu(current_user_id):
+def list_of_habits_menu(current_user_id): # Habits menu
     while True:
         print("Add/delete Habits")
         print("1. Add habit")
@@ -38,34 +38,30 @@ def list_of_habits_menu(current_user_id):
         elif habit_choice == '2':
             delete_habit(current_user_id)
         elif habit_choice == '3':
-            break  # Go back to the main menu
+            break 
         else:
             print("Invalid choice.")
-            time.sleep(1)  # Pause for 1 second before showing the menu again
+            time.sleep(1)  
 
-def add_habit(current_user_id):  # Accept current_user_id as a parameter
+def add_habit(current_user_id):  # Add habit
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
-    # Get user input for the new habit
     cursor.execute('''
     SELECT Habit_name FROM Habits WHERE User_id = ?
     ''', (current_user_id,))
 
-    # Fetch all results
     results = cursor.fetchall()
 
-    # Print the results in a numbered format
     print("Habits already created:")
     if not results:
         print("No habits found.")
     else:
         for i, habit in enumerate(results, start=1):
-            print(f"{i}. {habit[0]}")  # Print the habit name with an index
+            print(f"{i}. {habit[0]}")
 
     habit_name = input("Enter the name of Your habit: ")
     
-    # Loop until a valid periodicity is entered
     while True:
         periodicity = input("Enter the periodicity of the habit (daily or weekly): ").strip().lower()
         if periodicity in ['daily', 'weekly']:
@@ -73,7 +69,6 @@ def add_habit(current_user_id):  # Accept current_user_id as a parameter
         else:
             print("Invalid input. Please enter 'daily' or 'weekly'.")
 
-    # Get the goal for the habit
     while True:
         goal = input("Enter the goal for the habit (number of times per period): ")
         if goal.isdigit() and int(goal) > 0:
@@ -82,13 +77,11 @@ def add_habit(current_user_id):  # Accept current_user_id as a parameter
         else:
             print("Invalid input. Please enter a positive integer.")
 
-    # Set the creation date to today's date
-    creation_date = datetime.now().strftime('%Y-%m-%d')  # Format: YYYY-MM-DD
-    current_strike = 0  # Initialize current strike to 0
-    longest_strike = 0   # Initialize longest strike to 0
+    creation_date = datetime.now().strftime('%Y-%m-%d')  
+    current_strike = 0  
+    longest_strike = 0  
 
     try:
-        # Corrected SQL statement
         cursor.execute('''
             INSERT INTO Habits (User_id, Habit_name, Periodicity, Goal, Creation_date, Current_strike, Longest_strike)
             VALUES (?, ?, ?, ?, ?, ?, ?)
@@ -103,7 +96,7 @@ def add_habit(current_user_id):  # Accept current_user_id as a parameter
     finally:
         conn.close()
 
-def delete_habit(current_user_id):
+def delete_habit(current_user_id): # Delete habit
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     cursor.execute('SELECT Habit_name FROM Habits WHERE User_id = ?', (current_user_id,))
@@ -114,7 +107,7 @@ def delete_habit(current_user_id):
         print("No habits found for deletion.")
     else:
         for i, habit in enumerate(results, start=1):
-            print(f"{i}. {habit[0]}")  # Print the habit name with an index
+            print(f"{i}. {habit[0]}") 
             
     habit_name = input("Enter the name of the habit you want to delete: ")
     
@@ -140,7 +133,7 @@ def delete_habit(current_user_id):
     finally:
         conn.close()
 
-def check_off_habit_menu(current_user_id):
+def check_off_habit_menu(current_user_id): # Check off menu
     while True:
         print("Check-off Habit Menu")
         print("1. Habit Check-off")
@@ -153,12 +146,12 @@ def check_off_habit_menu(current_user_id):
         elif choice == '2':
             check_progress(current_user_id)
         elif choice == '3':
-            break  # Go back to the main menu
+            break 
         else:
             print("Invalid choice.")
-            time.sleep(1)  # Pause for 1 second before showing the menu again
+            time.sleep(1)  
 
-def check_off_habit(current_user_id):
+def check_off_habit(current_user_id): # Check off
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     cursor.execute('''
@@ -170,20 +163,17 @@ def check_off_habit(current_user_id):
     print("Habits which can be checked off:")
     if not results:
         print("No habits found.")
-        return  # Exit if no habits are found
+        return  
 
-    # Print habits with numbers
     for i, habit in enumerate(results, start=1):
-        print(f"{i}. {habit[0]}")  # Print the habit name with an index
+        print(f"{i}. {habit[0]}") 
 
-    # Prompt user to enter the number of the habit
     habit_choice = input("Enter the number of the habit you want to check off: ")
 
     try:
-        # Convert input to integer to get the habit by index
-        habit_index = int(habit_choice) - 1  # Adjust for zero-based index
+        habit_index = int(habit_choice) - 1 
         if 0 <= habit_index < len(results):
-            habit_name = results[habit_index][0]  # Get the habit name from the results
+            habit_name = results[habit_index][0] 
             
             cursor.execute('''
                 SELECT Habit_id, Current_strike, Longest_strike, Goal, Periodicity FROM Habits 
@@ -239,7 +229,7 @@ def check_off_habit(current_user_id):
     finally:
         conn.close()
 
-def check_progress(current_user_id, completion_date=None):
+def check_progress(current_user_id, completion_date=None): # Progress check
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
@@ -269,7 +259,6 @@ def check_progress(current_user_id, completion_date=None):
             done = cursor.fetchone()[0]
             progress_percentage = (done / goal) * 100 if goal > 0 else 0
             
-            # Print each habit with its progress
             print(f"{i}. {habit_name}, Done: {done}, Goal: {goal}, Progress: {progress_percentage:.2f}%")
     
     except Exception as e:

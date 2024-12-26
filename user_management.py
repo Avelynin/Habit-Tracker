@@ -4,7 +4,7 @@ from datetime import datetime, date, timedelta, time
 
 current_user_id = None
 
-def start():
+def start():  # Start app and User Menu
     print("Welcome to the habits tracking app")
     print("1. Choose user")
     print("2. Add new user")
@@ -19,13 +19,13 @@ def start():
     elif start_choice == '3':
         delete_user()
     elif start_choice == '4':    
-        exit_app()  # Call exit_app() to terminate the program
+        exit_app()
     else:
         print("Invalid choice.")
-        start()  # Restart the menu if the choice is invalid
+        start()
 
-def choose_user():
-    global current_user_id  # Declare as global to modify it
+def choose_user(): # Choose user(login function)
+    global current_user_id  
 
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
@@ -43,16 +43,16 @@ def choose_user():
         print("No users found.")
     else:
         for i, user in enumerate(users, start=1):
-            print(f"{i}. {user[1]}")  # Print the user name with an index
+            print(f"{i}. {user[1]}") 
 
     chosen_index = input("Enter the number of the user to log in: ")
     try:
-        chosen_index = int(chosen_index)  # Convert input to integer
+        chosen_index = int(chosen_index)  
         if 1 <= chosen_index <= len(users):
-            current_user_id = users[chosen_index - 1][0]  # Get the User_id
-            print(f"Welcome: {users[chosen_index - 1][1]}!")  # Welcome message
-            update_habits_on_login(current_user_id) # update
-            main_menu(current_user_id)  # Call the main menu with the user ID
+            current_user_id = users[chosen_index - 1][0]  
+            print(f"Welcome: {users[chosen_index - 1][1]}!") 
+            update_habits_on_login(current_user_id) 
+            main_menu(current_user_id) 
         else:
             print("Invalid choice. Please try again.")
             choose_user()
@@ -62,7 +62,7 @@ def choose_user():
 
     conn.close()
 
-def add_user():
+def add_user(): # Add user
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
@@ -80,7 +80,7 @@ def add_user():
         conn.close()
         start()
 
-def delete_user():
+def delete_user(): # Delete user
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     cursor.execute("SELECT User_id, User_name FROM Users")
@@ -113,16 +113,15 @@ def delete_user():
     conn.close()
     start()
 
-def exit_app():
+def exit_app(): # Exit App
     
     print("Exiting the application...")
     exit()  # Exit the program with a status code of 0 (indicating success)
 
-def update_habit_strike(habit_id, completion_date, completion_time, periodicity):
+def update_habit_strike(habit_id, completion_date, completion_time, periodicity):  # Update single habit
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
-    # Check if the habit was completed on the previous day/week
     if periodicity == 'daily':
         previous_day = completion_date - timedelta(days=1)
         cursor.execute('''
@@ -140,25 +139,20 @@ def update_habit_strike(habit_id, completion_date, completion_time, periodicity)
     
     previous_period_completion = cursor.fetchone()[0]
     
-    # Convert completion_time to string format
-    completion_time_str = completion_time.strftime("%H:%M:%S")  # Convert time to string
+    completion_time_str = completion_time.strftime("%H:%M:%S") 
     
-    # Update the Habit_Completion table
     cursor.execute('''
     INSERT INTO Habit_Completion (Habit_id, Completion_date, Completion_time)
     VALUES (?, ?, ?)
-    ''', (habit_id, completion_date, completion_time_str))  # Use the string format for time
+    ''', (habit_id, completion_date, completion_time_str))  
     
-    # Update the Habits table
     if previous_period_completion > 0:
-        # Habit was completed on the previous day/week, so increment the current strike
         cursor.execute('''
         UPDATE Habits
-        SET Current_strike = Current_strike + 1
+        SET Current_strike = Current_strike
         WHERE Habit_id = ?
         ''', (habit_id,))
         
-        # Update the Longest_strike if necessary
         cursor.execute('''
         SELECT Current_strike, Longest_strike
         FROM Habits
@@ -174,7 +168,6 @@ def update_habit_strike(habit_id, completion_date, completion_time, periodicity)
             WHERE Habit_id = ?
             ''', (habit_id,))
     else:
-        # Habit was not completed on the previous day/week, so reset the current strike
         cursor.execute('''
         UPDATE Habits
         SET Current_strike = 0
@@ -184,11 +177,10 @@ def update_habit_strike(habit_id, completion_date, completion_time, periodicity)
     conn.commit()
     conn.close()
 
-def update_habits_on_login(user_id):
+def update_habits_on_login(user_id): # Update all habits strike during log in
     conn = sqlite3.connect('Habbit_app.db')
     cursor = conn.cursor()
     
-    # Retrieve all habits for the user
     cursor.execute('''
     SELECT Habit_id, Periodicity, Current_strike
     FROM Habits
@@ -197,21 +189,16 @@ def update_habits_on_login(user_id):
     
     habits = cursor.fetchall()
     
-    # Get today's date and time
     today = date.today()
     current_time = datetime.now().time()
     
-    # Update each habit
     for habit in habits:
         habit_id, periodicity, current_strike = habit
         
-        # Check if the habit needs to be updated
         if periodicity == 'daily':
-            # Check if the habit was completed yesterday
             last_completion_date = today - timedelta(days=1)
             update_habit_strike(habit_id, last_completion_date, current_time, periodicity)
         elif periodicity == 'weekly':
-            # Check if the habit was completed in the last week
             last_completion_date = today - timedelta(weeks=1)
             update_habit_strike(habit_id, last_completion_date, current_time, periodicity)
     print("Habits has been updated")
