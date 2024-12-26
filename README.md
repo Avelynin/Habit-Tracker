@@ -90,7 +90,7 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 ## Testing and usage
 
-For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.<br>
+**For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data!**<br>
 
 ### User menagment
 
