@@ -94,12 +94,12 @@ For Testing purpose the Krzysztof account should be used as it is already contai
 
 ### User menagment
 
-#### Delete existing user
+#### Create new user
 
 1. Choose option 2 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 
-2. Choose new user name and confirm<br>
+2. Choose number of new user name and confirm<br>
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
 #### Delete existing user
@@ -111,7 +111,13 @@ For Testing purpose the Krzysztof account should be used as it is already contai
 2. Confirm it by typing "yes"<br>
 ![image](https://github.com/user-attachments/assets/41171ffd-402b-472d-a475-d80b3a5a0fa2)
 
-    
+#### Choose user(log in)
+1. Choose option 1 in start menu<br>
+  ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
+2.  Choose number of new user name and confirm<br>
+![image](https://github.com/user-attachments/assets/56696b97-b4fc-46f9-b853-f703d045b2a3)
+3. After log in You will reach a main menu of aplication<br>
+
 
 ### Habit Menagment
 ### Analysis Module
