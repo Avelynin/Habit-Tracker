@@ -14,10 +14,6 @@
   </a>
 
 <h3 align="center">Habit Tracker App</h3>
-
-  <p align="center">
-    Habit Tracker App
-  </p>
 </div>
 
 
@@ -50,17 +46,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-This Project contain habit App with sample data for December 2024 for testing purpose.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+This Project contain habit App maded in Python including sample data from 02-29 December 2024.
+This Read me documention will take You Trough instalation and testing app.
 
 ### Built With
-
-* Python
+Programming Language: Python
+Frameworks: SQLite
+Libraries: datetime , Sqlite3
+Development Environment:
+  Version Control: Github
+  IDE: Jupyter Notebook
 
 All things form presentation
 
