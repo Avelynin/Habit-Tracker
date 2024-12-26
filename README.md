@@ -33,7 +33,7 @@
       <ul>
         <li><a href="#user-menagment">User Menagment</a></li>
         <li><a href="#habit-menagment">Habit Menagment</a></li>
-        <li><a href="#analysis=module">Analysis Module</a></li>
+        <li><a href="#analysis-module">Analysis Module</a></li>
       </ul>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -95,6 +95,8 @@ For Testing purpose the Krzysztof account should be used as it is already contai
 ### User menagment
 ### Habit Menagment
 ### Analysis Module
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
