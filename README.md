@@ -51,15 +51,15 @@ This Read me documention will take You Trough instalation and testing app.
 
 ### Built With
 Programming Language: <br>
--Python <br>
+  -Python <br>
 Frameworks: <br>
--SQLite <br>
+  -SQLite <br>
 Libraries: <br>
--datetime  
--Sqlite3 <br>
+  -datetime  
+  -Sqlite3 <br>
 Development Environment: <br>
--Version Control: Github <br>
--IDE: Jupyter Notebook <br>
+  -Version Control: Github <br>
+  -IDE: Jupyter Notebook <br>
 
 All things form presentation
 
