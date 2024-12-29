@@ -90,7 +90,10 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 ## Testing and usage
 
-**For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data!**<br>
+**For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.**<br>
+These are current values for Krzysztof account.<br>
+![image](https://github.com/user-attachments/assets/f50cd7ae-4dad-4bf0-862e-51add28396c8)
+**IMPORTANT** After login the current strike will be set to 0 as database is updated after log in and last habit has been check in at 29.12.2024
 
 ### User menagment
 
