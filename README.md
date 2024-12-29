@@ -150,7 +150,7 @@ These are current values for Krzysztof account.<br><br>
 #### Habit check off
 1. Choose option 2 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
-2. Choose option 1 in habit menu<br>
+2. Choose option 1 in Check-off habit menu<br>
 ![image](https://github.com/user-attachments/assets/009bc4ea-0de8-45ba-a0af-e941a560ff4f)
 3. Choose number of habit to check off<br>
 ![image](https://github.com/user-attachments/assets/d656e891-72f1-41a2-bad7-634b07f560aa)
@@ -158,7 +158,9 @@ These are current values for Krzysztof account.<br><br>
 #### Habit progress check
 1. Choose option 2 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
-2. Choose option 2 in check-off habit menu<br>
+2. Choose option 2 in Check-off habit menu<br>
+![image](https://github.com/user-attachments/assets/009bc4ea-0de8-45ba-a0af-e941a560ff4f)
+3. Result will be showed<br>
 ![image](https://github.com/user-attachments/assets/47235a70-4391-43ec-895d-535a2aa6f4d9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -210,7 +212,7 @@ These are current values for Krzysztof account.<br><br>
 
 Krzysztof Grodzki - krzysztof.grodzki@hotmail.com
 
-Project Link: [https://github.com/Avelynin/Habit-Tracker/]
+Project Link: https://github.com/Avelynin/Habit-Tracker/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 https://github.com/Avelynin/Habit-Tracker
