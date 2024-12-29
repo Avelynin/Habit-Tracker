@@ -41,7 +41,7 @@
 
 ## About The Project
 
-The Habit Tracker App is a Python-based application designed to help users develop and maintain productive habits. <br> This app includes functionality for creating, managing, and analyzing habits. Sample data from December 2–29, 2024, is provided for testing purposes.<br> This README guides you through the installation, usage, and testing of the app.<br>
+The Habit Tracker App is a Python-based application designed to help users develop and maintain productive habits. <br> This app includes functionality for creating, managing, and analyzing habits. Sample data from 2nd-29th December 2024, is provided for testing purposes.<br> This README guides you through the installation, usage, and testing of the app.<br>
 
 ### Built With
 
