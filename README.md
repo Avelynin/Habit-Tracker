@@ -91,8 +91,8 @@ If You want to create Your own habit to tracke them the best way is to create a 
 ## Testing and usage
 
 **For Testing purpose the Krzysztof account should be used as it is already containy 4 weeks data.**<br>
-These are current values for Krzysztof account.<br>
-![image](https://github.com/user-attachments/assets/f50cd7ae-4dad-4bf0-862e-51add28396c8)
+These are current values for Krzysztof account.<br><br>
+![image](https://github.com/user-attachments/assets/f50cd7ae-4dad-4bf0-862e-51add28396c8)<br><br>
 **IMPORTANT** After login the current strike will be set to 0 as database is updated after log in and last habit has been check in at 29.12.2024
 
 ### User menagment
@@ -132,11 +132,23 @@ These are current values for Krzysztof account.<br>
 3. Choose name for new habit.<br>
    **It can not be this same like habit already created!**<br>
  ![image](https://github.com/user-attachments/assets/65153af6-a10a-4413-99ad-4affddfdc974)
-3. Choose name for new habit.<br>
-  
+4. Choose periodicity for Your habit.<br>
+  ![image](https://github.com/user-attachments/assets/ab44a102-6ff7-448a-aaed-827a79ed457a)
+4. Choose goal for Your habit.<br>
+![image](https://github.com/user-attachments/assets/478cd5d2-0584-46e2-be4b-ad2d4c9fc06b)
 
-
-
+### Delete habit
+### Add habit
+1. Choose option 1 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 2 in habit menu<br>
+![image](https://github.com/user-attachments/assets/a81cfcbc-5a42-45b6-8c5b-204224b856c2)
+3. Enter name of habit which You want to delete
+![image](https://github.com/user-attachments/assets/86a77160-d49d-49d2-b083-b39953cf0601)
+4. Confirm
+![image](https://github.com/user-attachments/assets/4b42d399-5d8d-410e-968a-fea672caa923)
+   
+   
 
 
 
