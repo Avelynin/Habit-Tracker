@@ -103,6 +103,7 @@ These are current values for Krzysztof account.<br><br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 
 2. Choose number of new user name and confirm<br>
+   **The name of the user must be unique!* 
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
 #### Delete Existing User
@@ -129,7 +130,7 @@ These are current values for Krzysztof account.<br><br>
 2. Choose option 1 in habit menu<br>
 ![image](https://github.com/user-attachments/assets/a81cfcbc-5a42-45b6-8c5b-204224b856c2)
 3. Choose name for new habit.<br>
-   **It cannot be the same as an already created habit!**<br>
+   **The name of the habit must be unique!**<br>
  ![image](https://github.com/user-attachments/assets/65153af6-a10a-4413-99ad-4affddfdc974)
 4. Choose periodicity for Your habit.<br>
   ![image](https://github.com/user-attachments/assets/ab44a102-6ff7-448a-aaed-827a79ed457a)
@@ -198,7 +199,7 @@ These are current values for Krzysztof account.<br><br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 4 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
-3. Choose number for habit <br>
+3. Choose number for habit<br>
 ![image](https://github.com/user-attachments/assets/6d286452-9572-4440-8bb3-4e002339882c)
 4.Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/63850313-7a58-40c8-86b7-ff75ba15fd08)
