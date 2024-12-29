@@ -166,6 +166,17 @@ These are current values for Krzysztof account.<br><br>
 
 ### Analysis Module
 
+#### List of tracked habit
+1. Choose option 3 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 1 in analysis module<br>
+![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
+
+
+
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
