@@ -103,7 +103,7 @@ These are current values for Krzysztof account.<br><br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 
 2. Choose number of new user name and confirm<br>
-   **The name of the user must be unique!* 
+   **The name of the user must be unique!* <br>
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
 #### Delete Existing User
