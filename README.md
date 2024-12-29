@@ -120,7 +120,7 @@ These are current values for Krzysztof account.<br><br>
 2.  Choose number of new user name and confirm<br>
 ![image](https://github.com/user-attachments/assets/56696b97-b4fc-46f9-b853-f703d045b2a3)
 3. After log in You will reach a main menu of aplication<br>
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Habit Menagment
 
@@ -161,7 +161,7 @@ These are current values for Krzysztof account.<br><br>
 2. Choose option 2 in check-off habit menu<br>
 ![image](https://github.com/user-attachments/assets/47235a70-4391-43ec-895d-535a2aa6f4d9)
 
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Analysis Module
