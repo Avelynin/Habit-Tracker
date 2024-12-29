@@ -98,8 +98,7 @@ These are current values for Krzysztof account.<br><br>
 
 ### User menagment
 
-#### Choose User(log in)
-
+#### Create New User
 1. Choose option 2 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 
@@ -107,7 +106,6 @@ These are current values for Krzysztof account.<br><br>
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
 #### Delete Existing User
-
 1. Choose option 3 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 2. Enter the username you want to delete:<br>
@@ -115,8 +113,7 @@ These are current values for Krzysztof account.<br><br>
 2. Confirm it by typing "yes"<br>
 ![image](https://github.com/user-attachments/assets/41171ffd-402b-472d-a475-d80b3a5a0fa2)
 
-#### Create New User
-
+#### Choose User(log in)
 1. Choose option 1 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
 2. Choose number of new user name and confirm<br>
