@@ -1,4 +1,7 @@
 import sqlite3
+from datetime import datetime, date, timedelta, time
+
+current_user_id = None
 
 def analysis_screen_menu(current_user_id):  # analysis menu
     while True:
