@@ -124,7 +124,7 @@ These are current values for Krzysztof account.<br><br>
 
 ### Habit Menagment
 
-### Add habit
+#### Add habit
 1. Choose option 1 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 1 in habit menu<br>
@@ -137,15 +137,14 @@ These are current values for Krzysztof account.<br><br>
 4. Choose goal for Your habit.<br>
 ![image](https://github.com/user-attachments/assets/478cd5d2-0584-46e2-be4b-ad2d4c9fc06b)
 
-### Delete habit
-### Add habit
+#### Delete habit
 1. Choose option 1 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 2 in habit menu<br>
 ![image](https://github.com/user-attachments/assets/a81cfcbc-5a42-45b6-8c5b-204224b856c2)
 3. Enter name of habit which You want to delete
 ![image](https://github.com/user-attachments/assets/86a77160-d49d-49d2-b083-b39953cf0601)
-4. Confirm
+4. Confirm<br>
 ![image](https://github.com/user-attachments/assets/4b42d399-5d8d-410e-968a-fea672caa923)
    
    
