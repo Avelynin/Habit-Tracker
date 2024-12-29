@@ -171,9 +171,36 @@ These are current values for Krzysztof account.<br><br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 1 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
+3. Result will be showed<br>
+![image](https://github.com/user-attachments/assets/8122bc55-ad71-42e9-ae00-e36de092e99c)
 
+#### List of tracked habit for choosen periodicity
+1. Choose option 3 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 2 in analysis module<br>
+![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
+2. Choose number for periodicty<br>
+![image](https://github.com/user-attachments/assets/2b23ebbf-dac1-4d71-91f4-3f4d479560f8)
+4. Result will be showed<br>
+![image](https://github.com/user-attachments/assets/e2681953-f9bd-419d-a8a7-515522892867)
 
+#### Longest run streak for all habits
+1. Choose option 3 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 3 in analysis module<br>
+![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
+3. Result will be showed<br>
+![image](https://github.com/user-attachments/assets/241ea4d5-066b-4671-9d24-d09726edfa67)
 
+#### Longest run streak for all habits
+1. Choose option 3 in main menu<br>
+![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
+2. Choose option 4 in analysis module<br>
+![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
+3. Choose number for habit <br>
+![image](https://github.com/user-attachments/assets/6d286452-9572-4440-8bb3-4e002339882c)
+4. Result will be showed<br>
+![image](https://github.com/user-attachments/assets/63850313-7a58-40c8-86b7-ff75ba15fd08)
 
 
 
