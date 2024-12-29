@@ -89,7 +89,7 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Testing and usage
+## Testing and Usage
 
 **For testing purposes, the "Krzysztof" account should be used as it already contains 4 weeks of data.**<br>
 These are current values for Krzysztof account.<br><br>
@@ -98,7 +98,7 @@ These are current values for Krzysztof account.<br><br>
 
 ### User menagment
 
-#### Choose user(log in)
+#### Choose User(log in)
 
 1. Choose option 2 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
@@ -106,7 +106,7 @@ These are current values for Krzysztof account.<br><br>
 2. Choose number of new user name and confirm<br>
    ![image](https://github.com/user-attachments/assets/e838c93d-6b6a-4002-bef2-bbc92d6aec29)
 
-#### Delete existing user
+#### Delete Existing User
 
 1. Choose option 3 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
@@ -115,7 +115,7 @@ These are current values for Krzysztof account.<br><br>
 2. Confirm it by typing "yes"<br>
 ![image](https://github.com/user-attachments/assets/41171ffd-402b-472d-a475-d80b3a5a0fa2)
 
-#### Create new user
+#### Create New User
 
 1. Choose option 1 in start menu<br>
   ![image](https://github.com/user-attachments/assets/67d92fb0-edba-4454-8164-7995c9dc65c4)
@@ -126,7 +126,7 @@ These are current values for Krzysztof account.<br><br>
 
 ### Habit Menagment
 
-#### Add habit
+#### Add Habit
 1. Choose option 1 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 1 in habit menu<br>
@@ -139,7 +139,7 @@ These are current values for Krzysztof account.<br><br>
 4. Choose goal for Your habit.<br>
 ![image](https://github.com/user-attachments/assets/478cd5d2-0584-46e2-be4b-ad2d4c9fc06b)
 
-#### Delete habit
+#### Delete Habit
 1. Choose option 1 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 2 in habit menu<br>
@@ -149,7 +149,7 @@ These are current values for Krzysztof account.<br><br>
 4. Confirm<br>
 ![image](https://github.com/user-attachments/assets/4b42d399-5d8d-410e-968a-fea672caa923)
    
-#### Habit check off
+#### Habit Check-Off
 1. Choose option 2 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 1 in Check-off habit menu<br>
@@ -157,12 +157,12 @@ These are current values for Krzysztof account.<br><br>
 3. Choose the number of the habit to check off<br>
 ![image](https://github.com/user-attachments/assets/d656e891-72f1-41a2-bad7-634b07f560aa)
 
-#### Habit progress check
+#### Habit Progress Check
 1. Choose option 2 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
-2. Choose option 2 in Check-off habit menu<br>
+2. Choose option 2 in the Check-off habit menu<br>
 ![image](https://github.com/user-attachments/assets/009bc4ea-0de8-45ba-a0af-e941a560ff4f)
-3. Result will be showed<br>
+3. Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/47235a70-4391-43ec-895d-535a2aa6f4d9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -170,40 +170,40 @@ These are current values for Krzysztof account.<br><br>
 
 ### Analysis Module
 
-#### List of tracked habit
+#### List of Tracked Habits
 1. Choose option 3 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 1 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
-3. Result will be showed<br>
+3. Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/8122bc55-ad71-42e9-ae00-e36de092e99c)
 
-#### List of tracked habit for choosen periodicity
+#### List of Tracked Habits for Choosen Periodicity
 1. Choose option 3 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 2 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
-2. Choose number for periodicty<br>
+2. Choose number for periodicity<br>
 ![image](https://github.com/user-attachments/assets/2b23ebbf-dac1-4d71-91f4-3f4d479560f8)
-4. Result will be showed<br>
+4. Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/e2681953-f9bd-419d-a8a7-515522892867)
 
-#### Longest run streak for all habits
+#### Longest Run Streak for All Habits
 1. Choose option 3 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 3 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
-3. Result will be showed<br>
+3. Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/241ea4d5-066b-4671-9d24-d09726edfa67)
 
-#### Longest run streak for all habits
+#### Longest Run Streak for All Habits
 1. Choose option 3 in main menu<br>
 ![image](https://github.com/user-attachments/assets/77cc5271-cf08-4fa3-903e-3f0e7d84d77a)
 2. Choose option 4 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
 3. Choose number for habit <br>
 ![image](https://github.com/user-attachments/assets/6d286452-9572-4440-8bb3-4e002339882c)
-4. Result will be showed<br>
+4.Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/63850313-7a58-40c8-86b7-ff75ba15fd08)
 
 
