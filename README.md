@@ -200,7 +200,7 @@ These are current values for Krzysztof account.<br><br>
 2. Choose option 4 in analysis module<br>
 ![image](https://github.com/user-attachments/assets/c7d154a8-4243-4410-80c6-5b11dc8eb7f3)
 3. Choose number for habit<br>
-![image](https://github.com/user-attachments/assets/6d286452-9572-4440-8bb3-4e002339882c)
+![image](https://github.com/user-attachments/assets/6d286452-9572-4440-8bb3-4e002339882c)<br>
 4.Results will be displayed<br>
 ![image](https://github.com/user-attachments/assets/63850313-7a58-40c8-86b7-ff75ba15fd08)
 
