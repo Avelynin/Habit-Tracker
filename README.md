@@ -29,12 +29,13 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#testing-and-usage">Testing and Usage</a></li>
+    <li><a href="#Usage">Testing and Usage</a></li>
       <ul>
         <li><a href="#user-menagment">User Menagment</a></li>
         <li><a href="#habit-menagment">Habit Menagment</a></li>
         <li><a href="#analysis-module">Analysis Module</a></li>
       </ul>
+    <li><a href="#test-units">Test units</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -89,7 +90,7 @@ If You want to create Your own habit to tracke them the best way is to create a 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Testing and Usage
+## Usage
 
 **For testing purposes, the "Krzysztof" account should be used as it already contains 4 weeks of data.**<br>
 These are current values for Krzysztof account.<br><br>
@@ -205,6 +206,24 @@ These are current values for Krzysztof account.<br><br>
 ![image](https://github.com/user-attachments/assets/63850313-7a58-40c8-86b7-ff75ba15fd08)
 
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Test units
+
+For unit testing You have download files from folder "Test units" and run unit_test.py. <br>
+This unit tests contatin check for following functions: <br>
+
+1.Test: Add habit <br>
+2.Test: Delete habit <br>
+3.Test: List of habits with same periodicity (weekly) <br>
+4.Test: List of tracked habits <br>
+5.Test: Longest run streak of all defined habits <br>
+6.Test: Longest run streak of chosen habit <br>
+
+As You can see all of the test has been passed.
+
+![image](https://github.com/user-attachments/assets/12b09195-e772-4604-a10e-dd64b39f32be)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
